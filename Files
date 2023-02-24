@@ -1,0 +1,202 @@
+paste
+Search...
+
+LOGIN SIGN UP
+Advertisement
+Advertise Here
+
+Guest User
+Untitled
+A GUEST
+FEB 23RD, 2023
+147
+0
+NEVER
+ADD COMMENT
+Not a member of Pastebin yet? Sign Up, it unlocks many cool features!
+6.79 KB | None |  
+  
+Practical 2
+Using Virtual Box
+AIM: Installation and Configuration of virtualization using KVM.
+Step 1:-Download virtual box.
+Step 2:-Click on new and give name and select type as linux. 
+Step 3:-Select the size of ram.
+Step 4:-Select VHD.
+Step 5:-Select dyanamically.
+Step 6:-Give the path and select size.
+Step 7:-Select the ISO in storage and click on start.
+Step 8:-Select install ubuntu.
+Step 9:-Enter name and password and click on continue.
+Step 10:-Ubuntu has been installed successfully.
+Using VMware
+Step 1:-Open Vmware workstation.
+Step 2:-Create New Virtual Machine. Select Typically as a Method
+Step 3:-Fill Personal Linux information And Click on Next.
+Step 4:-Give Virtual Machine a Name & Select the .iso File.
+Step 5:-Ubuntu Has been installed successfully.
+Ubuntu Commands to Execute
+Step 1:- Now open a terminal and execute the following commands to install all the packages needed.  Perform Following commands   #sudo apt update
+Step 2:- #sudo apt install qemu qemu-kvm
+Step 3:-When you additionally want to use a GUI for the KVM virtualization environment, execute this : #sudo apt install virt-manager
+Step 4:-  #sudo grep -c "svm\|vmx" /proc/cpuinfo
+Step 5:- #sudo apt-get install qemu-kvm libvirt-bin bridge-utils virt-manager
+Step 6:- #sudo adduser <<username>>
+Step7:- #sudo adduser tom libvirt
+Step 8:- After running above commands, log out and log back in as tom
+Step 9:-Login as tom
+Step 10:- Follow steps Top menu select Devices->Opticals Drives- >Choose disk image (select any os iso)
+Step 11:- # virt-manager
+ 
+PRAC 03
+Aim : Study and implentation of infrastructure as a service (IaaS)
+1) Download centos-openstack
+2) Extract the zip file
+3) open virtual box application and import the contents of the zip file
+4) for that using machine -- app option you should see the entry centos-openstack 
+   in your VM after the import
+5) Ensure that the centos-openstack --- setting page does not 
+   have any invalid settings
+6) also check the following configuration are properly in place or not 
+   i) under setting -- USB (turn off USB controller) if it shows up as 
+      valid setting
+     adjust your RAM to be at or below 80% of your actual
+     PC's memory capacity.
+   ii) Under centos-openstack --- setting -- network check if the NAT adapter 
+     is ENSURE that your PC/Laptop running the virtual application has internet
+      connectivity.
+   iii) Under centos openstack -- setting network adapter (NAT) . 
+      Click the port forwarding " Button and Check if the following port forwarding
+     options are in the place , else configure them.
+   iv) check the setting page of your centos-openstack VM it should more-or-less 
+     be having the setting
+7) start the VM let it load
+  Enter username : openstack 
+  Enter Password : openstack 
+8) in the console enter command : Ipconfig
+ 
+Practical 4
+Aim: Study and implement of Storage as a service
+Steps:
+1)Go to browser and download wamp 2.5
+2)Double click on wamp
+3)Do next - next- next- finish
+4)Download Owncloud 6.0.9 zip Then extract the file Owncloud
+5) copy the files 
+6)And paste it in the wamp server folder--in www folder --and paste it there
+7)open the wamp 
+8)go to localhost
+9)type in url--- localhost/owncloud/
+10)create an admin account 
+11)then we can add multiple users
+12)And we can upload and share the files
+ 
+Practical 5
+Aim: Study and implement of Storage as a service
+Steps:
+1)Go to browser and download wamp 2.5
+2)Double click on wamp
+3)Do next - next- next- finish
+4)Download Owncloud 6.0.9 zip Then extract the file Owncloud
+5) copy the files 
+6)And paste it in the wamp server folder--in www folder --and paste it there
+7)open the wamp 
+8)go to localhost
+9)type in url--- localhost/owncloud/
+10)Login as Admin ID
+11)Check the user’s 
+ 
+ 
+ 
+PRAC 06
+Aim :- To Study Cloud Security Management.
+1.	User Creation :
+i.	Go to AWS account Console.
+ii.	Type IAM in Search box and go to IAM and select user.
+iii.	Go to user and then give name to that user and click on create user
+iv.	Give user name, select that 2 AWS credential type and generate password and then click on next.
+v.	Click on Next.
+vi.	Click on create user.
+vii.	Download that csv file.
+ 
+2. Setup with MFA device :
+i.Go to IAM.
+ii. Click on security credential and lick on Assign MFA device .
+iii.Give name and click on continue.
+iv.	 You need to install google authenticator app on your mobile and scan the QR code.Then type that 2 codes and click on Assign MFA.
+v.	Log out from your account.
+3. IAM USER CREATION :-
+ 
+i.	create IAM user.
+ii.	 Fill the MFA code then confirm and change password.
+ 
+ 
+ 
+ 
+ 
+practical no:7
+Aim: Write a program for web feed
+step1: install the software 'RSS builder'.
+step2: fill the required things in RSS builder
+   feed properties   
+       title-w3schools online web tutorials
+       url-http;//www.w3school.com
+       copyright-2014
+       language-engish
+       editor-author@www.w3school.com
+       webmaster-webmaster@www.w3school.com
+       description-enter discription
+ 
+   topic properties:-
+       title-new rss builder
+       link-http://www.w3school.com
+       category-general
+       comments-http://www.w3school.com/comments.aspx
+       author-author@www.w3school.com
+ 
+step3: write the code in for web feed and it with '.xml' extension.
+step4: go to file > new > website > visual c# > asp.net website
+step5: then click on ok button
+step6: now copy that rss file which was saved with .xml extension inside your website folder
+step7: now add new form and add <a href="rss.xml">feed</a>
+step8: run the page and click on feed.
+step9: the rss webfeed as output or if its loading then download rss subscription extension by google.
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+PRAC 08
+AIM: Study and Implementation of Single-Sign-On
+ 
+Step 1 : Go to auth0.com
+Step 2 : Choose Personal click on Next
+Step 3 : A tenant name will be provided to you select US in region .Click on 
+Create Account 
+Step 4 : Dashboard will appear .Click on Authentication>>Social
+Step 5 : A Google/Gmail connection will appear click on the three dots>>Try Connection.
+Step 6 : Choose the account you want to connect
+If the connection is established you will be redirected to output page
+ 
+ 
+ 
+Practical -9
+Aim :- Getting started with AWS S3 in cloud.
+Step1 : Login to AWS console.
+Step2 : Search and Open Amazon S3 bucket.
+Step3: create bucket->click on ACL disaled
+step4: click disable on bucket versioning->enter key = name and value = practical
+step5: default encryption->click amazon s3-mangaed key->click bucket key disabled
+click create bucket
+ 
+Step6 : Open Bucket and -> click on create object.
+Step7 : Upload project folder(static project).
+Step8 : Add Bucket Policy.
+Step9: Enable static web hosting.
+Step10 : Copy URL from static web hosting and open in browser
+Step11: Static website is hosted on S3 bucket successfully.
+ 
+ 
